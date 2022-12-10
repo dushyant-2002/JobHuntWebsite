@@ -1,0 +1,180 @@
+*{
+    margin:0 ;
+    padding: 0;
+}
+#nav{
+    height: 10vh;
+    /* border: 2px solid black; */
+    background-color: aliceblue;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    
+}
+.name{
+    margin-left: 40px;
+}
+#name{
+    position: relative;
+    top: -4px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.list{
+    margin-left: 25vw;
+}
+.listitems{
+    margin-right: 40px;
+    cursor: pointer;
+}
+.listitems:hover{
+    color: blue;
+}
+.icon{
+    margin-left: 18vw;
+}
+.icon span{
+    margin-left: 5px;
+}
+.line{
+    /* border-left: 2px solid grey; */
+    position: relative;
+    top: -5px;
+}
+#second{
+    display: flex;
+    align-items: center;
+}
+#search{
+    color: blue;
+    position: relative;
+    top: 6px;
+}
+#second div  button{
+    /* padding: 0px 40px; */
+    text-align: left;
+    color: blue;
+}
+.location{
+    margin-left: 10vw;
+}
+.type{
+    margin-left: 10vw;
+}
+
+
+
+
+
+
+
+#search{
+    /* margin-left: 20px;s */
+}
+.second input{
+    border: 1px solid black;
+}
+#second{
+    /* border: 2px solid red; */
+    height: 13vh;
+    background-color: rgb(197, 223, 223);
+    padding-left: 10px;
+}
+.grid{
+    display: grid;
+    grid-template-areas: 'aside section section section';
+
+
+}
+aside{
+    grid-area: aside;
+
+}
+section{
+    grid-area: section;
+    /* border: 2px solid green; */
+    height: 10%;
+    width: 69.8vw;
+}
+/* section */
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    height: 150vh;
+
+}
+.griditems{
+    width: 100%;
+    height: 55vh;
+    /* border: 1px solid black; */
+    background-color: aliceblue;
+    padding: 20px 10px;
+}
+.logo2{
+    width: 40px;    
+    border-radius: 6px;
+}
+.griditems h3{
+    margin: 10px 0px;
+}
+#gtags{
+    justify-content: center;
+}
+#gtags a{
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: .7rem;
+    background-color: azure;
+    padding: 8px 10px;
+    color: blue;
+    border-radius: 5px;
+}
+.lbtn{
+    line-height: 1rem;
+}
+.lbtn a{
+    padding: 4px 20px;
+}
+#lbtn{
+    background-color: rgba(128, 128, 128, 0.144);
+    border-color: rgba(128, 128, 128, 0.523);
+    color: grey;
+}
+/* aside */
+aside{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+}
+.abox1{
+    /* border: 1px solid black; */
+    padding: 15px 15px;
+    background-color: rgb(15 141 254 / 32%);
+    border-radius: 5px;
+    height:46vh;
+}
+.abox1 h3{
+    font-size: 1.5rem;
+}
+.atext{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#ainput input{
+    padding: 10px 20px;
+}
+.filters{
+    margin-top: 20px;
+}
+.filters h5{
+    font-size: 1.3rem;
+}
+.filters div{
+    padding: 4px 25px;
+}
+.ah2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
